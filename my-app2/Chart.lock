@@ -1,0 +1,6 @@
+dependencies:
+- name: my-app
+  repository: https://pranavdhopey.github.io/helm-repo-test/charts
+  version: 0.1.0
+digest: sha256:5b02081d361b959fae218f6e761e4855b915700694091e5e5bac484036e880a6
+generated: "2021-07-11T11:59:57.320340987Z"
