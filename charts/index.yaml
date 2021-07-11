@@ -3,12 +3,27 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-11T10:54:43.886470156Z"
+    created: "2021-07-11T12:12:44.724622071Z"
     description: A Helm chart for Kubernetes
     digest: 7f19d8cf319466fa6cf78e0558924e52a0bda380e156f22b7faed9c5b6b8f15c
     name: my-app
     type: application
     urls:
-    - https://pranavdhopey.github.io/helm-repo-test/my-app-0.1.0.tgz
+    - https://pranavdhopey.github.io/helm-repo-test/charts/my-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-11T10:54:43.885683724Z"
+  my-app2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-11T12:12:44.725675087Z"
+    dependencies:
+    - name: my-app
+      repository: https://pranavdhopey.github.io/helm-repo-test/charts
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 791ab92d196dd4fbf47560f9fde4d1419bb918d8e9664d1e32f415193c64a52f
+    name: my-app2
+    type: application
+    urls:
+    - https://pranavdhopey.github.io/helm-repo-test/charts/my-app2-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-07-11T12:12:44.723884334Z"
