@@ -9,6 +9,6 @@ entries:
     name: my-app
     type: application
     urls:
-    - https://pranavdhopey.github.io/helm-repo-test/my-app-0.1.0.tgz
+    - https://pranavdhopey.github.io/helm-repo-test/charts/my-app-0.1.0.tgz
     version: 0.1.0
 generated: "2021-07-11T10:54:43.885683724Z"
