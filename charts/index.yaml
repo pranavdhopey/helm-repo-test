@@ -3,7 +3,7 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-11T08:53:20.278917864Z"
+    created: "2021-07-11T10:54:43.886470156Z"
     description: A Helm chart for Kubernetes
     digest: 7f19d8cf319466fa6cf78e0558924e52a0bda380e156f22b7faed9c5b6b8f15c
     name: my-app
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://pranavdhopey.github.io/helm-repo-test/my-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-11T08:53:20.277050551Z"
+generated: "2021-07-11T10:54:43.885683724Z"
